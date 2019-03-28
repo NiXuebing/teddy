@@ -40,4 +40,6 @@ npm install -g gh-pages
 4. 发布线上 `gh-pages -d _book`, 每次发布前都重新进行一次`gitbook build`，确保修改生效
 
 ## 文档提交
-
+1. `commit` - 提交日志 - 回车
+2. `push` - 推送到服务器
+3. 两台电脑间操作，先进行`pull`同步
