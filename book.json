@@ -1,0 +1,49 @@
+{
+    "title": "工作术语",
+    "author": "teddy",
+    "styles": {
+    	"website": "styles/website.css"
+ 	},
+    "plugins": [
+        "-sharing",
+        "include-codeblock",
+        "mathjax",
+        "splitter",
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "collapsible-menu",
+        "-livereload",
+        "prism",
+        "-highlight",
+        "url-embed",
+        "page-footer-ex",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": false
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "page-footer-ex": {
+            "copyright": "By Teddy",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "associatedWithSummary": false,
+            "multipleH1": false
+        }
+    }
+}
